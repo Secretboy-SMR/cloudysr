@@ -28,14 +28,14 @@ export class AuthHandler {
             hcoin: 100000,
             level: 60,
             mcoin: 100000,
-            nickname: "CloudySR",
+            nickname: "WindySR",
             scoin: 100000,
             stamina: 1000,
             worldLevel: 8,
         };
 
         const player = new Player(context.client, basicInfo, AvatarExcel.getAllAsAvatar(), []);
-        player.lineups.push(new Lineup(player, "CloudySR", [1001], 0, 0, false));
+        player.lineups.push(new Lineup(player, "WindySR", [1001], 0, 0, false));
         PlayerManager.players.set(context.client.playerUid, player);
         const rsp = PlayerLoginScRsp.create();
         rsp.retcode = 0;

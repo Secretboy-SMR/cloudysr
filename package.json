@@ -1,5 +1,5 @@
 {
-  "name": "cloudysr",
+  "name": "WindySR",
   "version": "1.0.0",
   "description": "A Honkai: Star rail server software written in Typescript",
   "main": "main.ts",

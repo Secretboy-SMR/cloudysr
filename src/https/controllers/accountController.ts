@@ -58,9 +58,9 @@ async function getSimpleAccountResponse(request: FastifyRequest, reply: FastifyR
         message: "OK",
         data: {
             account: {
-                uid: "1",
-                name: "Cloudy | ✧",
-                email: "Cloudy | ✧",
+                uid: "69",
+                name: "Windy | ✧",
+                email: "Windy | ✧",
                 mobile: "",
                 is_email_verify: 0,
                 realname: "",
