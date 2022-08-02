@@ -10,7 +10,7 @@ export default async function dispatchController(fastify: FastifyInstance) {
                 {
                     dispatch_url: "https://127.0.0.1/query_cur_region",
                     env_type: 2,
-                    name: "cloudy_sr_ts",
+                    name: "WindySR",
                     title: ""
                 },
             ]
@@ -20,7 +20,7 @@ export default async function dispatchController(fastify: FastifyInstance) {
     
     fastify.get('/query_cur_region',async (request, reply) => {
         const rsp = Gateserver.create({
-            regionName: "cloudy_sr_ts",
+            regionName: "WindySR",
             ip: "127.0.0.1",
             port: 23301,
             //clientSecretKey: Crypto.ec2b.ec2b.toString('base64')
