@@ -1,4 +1,4 @@
-# cloudysr
+# WindySR
 A Honkai: Star Rail server software written in Typescript
 
 
